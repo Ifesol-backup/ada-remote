@@ -21,9 +21,16 @@ shows the same three words. An invite works once, for an hour.
 - The machine shows up in Files with live GPU, CPU, memory and disk, its web
   apps (Jupyter, ComfyUI, Gradio, Ollama and others, found on their own) and
   its terminals.
+- Its files as a folder on your desktop: Files and any app open, edit and
+  save them directly. A file reaches the machine whole when it's closed.
+- Project folders kept in step both ways. A file changed on both sides is
+  never overwritten: you pick which to keep, or keep both. What sync
+  replaces or deletes is kept for a week.
 - Web apps open in your desktop's browser with no port forwarding.
 - Terminals keep running on the machine when your desktop sleeps or the
   connection drops, and pick up exactly where they were.
+- It updates itself when your desktop asks (and waits for you while
+  terminals are running, since an update restarts them).
 
 ## How it connects
 
