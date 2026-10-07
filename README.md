@@ -27,10 +27,11 @@ shows the same three words. An invite works once, for an hour.
   never overwritten: you pick which to keep, or keep both. What sync
   replaces or deletes is kept for a week.
 - Web apps open in your desktop's browser with no port forwarding.
-- Terminals keep running on the machine when your desktop sleeps or the
-  connection drops, and pick up exactly where they were.
-- It updates itself when your desktop asks (and waits for you while
-  terminals are running, since an update restarts them).
+- Terminals keep running on the machine when your desktop sleeps, the
+  connection drops, or ada-remote itself restarts, and pick up exactly where
+  they were.
+- It updates itself when your desktop asks; your terminals keep running
+  through it.
 
 ## How it connects
 
